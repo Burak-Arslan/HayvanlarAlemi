@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pc.slide.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        tools:context="com.pc.openapplication.MainActivity">
+
+        <LinearLayout
+            android:id="@+id/lnrSpace"
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:orientation="vertical">
+
+
+            <Switch
+                android:id="@+id/swichSesAcKapa"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="7dp"
+                android:switchMinWidth="55dp"
+                android:text="Ses Aç Kapat  "
+                android:textColor="@color/switchWhite"
+                android:theme="@style/SCBSwitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrRocket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAbone"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonstyles"
+                android:text="HAYVANLAR ALEMİNE GİRİŞ " />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
